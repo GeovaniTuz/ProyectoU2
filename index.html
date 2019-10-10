@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="url.js"></script>
+    <script src="js/archivo.js"></script> 
+    <!--abre archivo externo-->
     <title>Lenguajes y Automatas</title>
 </head>
 
@@ -26,6 +28,9 @@
         <!-- para cargar un archivo y poder modificar mas adelante-->
         <h3>buscar archivo para modificar</h3>
         <hr>
+        <input id="fileInput" type="file" size="50" onchange="processFiles(this.files)">
+        <div id="fileOutput">
+
         </div>
         <hr>
         <div>
