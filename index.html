@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="url.js"></script>
+    <title>Lenguajes y Automatas</title>
+</head>
+
+<body>
+    <div style="float: left;">
+        <div>
+            <h1>Leguajes y Automatas</h1>
+        </div>
+        <div>
+            <form name="registracion" method="get"></form>
+            <h5>BUSCAR URL</h5>
+        </div>
+        <hr>
+        <!-- para cargar un archivo y poder modificar mas adelante-->
+        <h3>buscar archivo para modificar</h3>
+        <hr>
+        </div>
+        <hr>
+        <div>
+            <h5>BUSQUEDA</h5>
+            <!--busca toda las imaganes que contenga el archivo-->
+            <p>buscar toda las imagenes (jpg, png, gif, etc)</p>
+            <button onclick="busImg();">IMG</button>
+            <p id="siImg"></p>
+
+            <!--busca el cotenido title-->
+            <p>el contenido de la etiqueta title</p>
+            <button onclick="busTitle();">TITLE</button>
+            <p id="siTitle"></p>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <h5>REMPLAZAR</h5>
+            <!--aqui busca todo los etiquetas de la url-->
+            <p>Urls largas por urls cortas tipo tiyur</p>
+            <button onclick="acortarurl(); ">URL largas</button>
+            <p id="siRecibidoU"></p>
+            <!--busca todo los comentarios-->
+
+            <p>borrar todo los comentarios</p>
+            <button onclick="remplazar();">Comentarios</button>
+            <p id="siRecibido "></p>
+
+        </div>
+        <br>
+        <hr>
+        <div>
+            <h5>ENCRIPTAR</h5>
+            <!-- va encriptar todo lo que contenga la etiqueta parrafo-->
+            <p>el contenido de la etiqueta parrafo</p>
+            <button onclick="encriptar();">contenido</button>
+            <p id="recibiren"></p>
+            <h3>resultado de encriptacion</h3>
+            <button onclick="encri();">encriptar</button>
+            <p id="sicrip"></p>
+        </div>
+    </div>
+</body>
+
+</html>
